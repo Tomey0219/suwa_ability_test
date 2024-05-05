@@ -1,0 +1,31 @@
+header{
+    padding: 10px 50px;
+}
+
+.header_inner {
+    width: 100%;
+    align-items: center;
+    display: table;
+}
+
+.header_spacer{
+    display: table-cell;
+    width: 33%;
+}
+
+h1 {
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 35px;
+    color: rgba(137, 119, 103, 1);
+    display: table-cell;
+    text-align: center;
+    width: 33%;
+}
+
+main{
+    padding: 0px 0px 50px 0px;
+    border-top: 1px solid rgba(139, 121, 105, 1);
+    background-color: white;
+}

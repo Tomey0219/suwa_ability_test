@@ -1,0 +1,121 @@
+.div_register_link {
+    display: table-cell;
+    text-align: right;
+    width: 33%;
+}
+
+h2 {
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 30px;
+    text-align: center;
+    color: rgba(137, 119, 103, 1);
+}
+
+.div_input{
+    margin: 0px auto;
+    width: 70%;
+}
+
+.input_tbl{
+    width: 100%;
+}
+
+.input_tbl th {
+    font-size: 16px;
+    text-align: left;
+    vertical-align: top;
+    padding: 5px 10px 20px 0px;
+    color: rgba(137, 119, 103, 1);
+}
+
+.input_tbl td input,select,textarea{
+    background-color: rgba(244, 244, 244, 1);
+    border: none;
+}
+
+.input_tbl td ::placeholder {
+    font-size: 12px;
+    color: rgba(137, 119, 103, 1);
+}
+
+.input_tbl td select:first-child {
+    font-size: 12px;
+    color: rgba(137, 119, 103, 1);
+}
+
+.input_tbl td label {
+    font-size: 15px;
+    color: rgba(137, 119, 103, 1);
+}
+
+#fname_inp{
+    width: 49%;
+    padding: 10px 10px;
+}
+
+#lname_inp {
+    width: 49%;
+    padding: 10px 10px;
+}
+
+#email_inp {
+    width: 98%;
+    padding: 10px 10px;
+}
+
+#first_tel {
+    width: 30%;
+    padding: 10px 10px;
+}
+
+#second_tel {
+    width: 30%;
+    padding: 10px 10px;
+}
+
+#third_tel {
+    width: 30%;
+    padding: 10px 10px;
+}
+
+#adress_inp {
+    width: 98%;
+    padding: 10px 10px;
+}
+
+#bil_inp {
+    width: 98%;
+    padding: 10px 10px;
+}
+
+#type_sel{
+    width: 50%;
+    padding: 10px 10px;
+}
+
+#textarea {
+    padding: 10px 10px;
+}
+
+.input_tbl th span{
+    color: red;
+    font-weight: bold;
+}
+
+.reg_submit_btn {
+    width: 10%;
+    margin: 30px auto;
+    border: none;
+    border-radius: 3px;
+    background: rgba(130, 117, 106, 1);
+    color: white;
+    display: block;
+    font-size: 20px;
+}
+
+.error_msg{
+    color: red;
+    font-size: 12px;
+}

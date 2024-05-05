@@ -1,0 +1,76 @@
+.div_login_link {
+    display: table-cell;
+    text-align: right;
+    width: 33%;
+}
+
+.login_link {
+    font-size: 18px;
+    background: rgba(246, 246, 246, 1);
+    color: rgba(225, 211, 199, 1);
+    text-decoration: none;
+    border: 1px solid rgba(225, 211, 199, 1);
+    padding: 5px 20px;
+    border-radius: 3px;
+}
+
+
+h2 {
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 30px;
+    text-align: center;
+    color: rgba(137, 119, 103, 1);
+}
+
+.main_box {
+    width: 60%;
+    margin: 0px auto;
+    padding: 20px;
+    background-color: white;
+}
+
+.div_login_tbl {
+    margin: 20px auto;
+}
+
+.login_tbl {
+    margin: 0px auto;
+    width: 40%;
+}
+
+.login_tbl th {
+    font-size: 18px;
+    text-align: left;
+    padding: 20px 0px 5px 0px;
+    color: rgba(137, 119, 103, 1);
+}
+
+.login_tbl td input {
+    width: 100%;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    background: rgba(244, 244, 244, 1);
+}
+
+.login_submit_btn {
+    width: 10%;
+    margin: 30px auto;
+    border: none;
+    border-radius: 3px;
+    background: rgba(130, 117, 106, 1);
+    color: white;
+    display: block;
+}
+
+.div_val_error {
+    width: 40%;
+    margin: 0px auto;
+}
+
+.val_error {
+    font-size: 15px;
+    color: red;
+}
