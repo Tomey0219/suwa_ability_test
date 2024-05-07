@@ -112,5 +112,12 @@ class ContactController extends Controller
 
     }
 
+    public function destroy(Request $request)
+    {
+        Contact::find($request->id)->delete();
+
+        return redirect('/admin');
+    }
+
 
 }

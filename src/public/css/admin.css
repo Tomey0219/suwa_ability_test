@@ -178,3 +178,70 @@ svg.w-5.h-5 {
     width: 10%;
 }
 
+.modal_box{
+    background-color: white;
+    border: 1px solid rgba(137, 119, 103, 1);
+    padding: 30px 30px;
+    position: fixed;
+    width: 70%;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+#div_closebtn {
+    text-align: right;
+}
+
+#closeModal {
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    border: 1px solid rgba(137, 119, 103, 1);
+    color: rgba(137, 119, 103, 1);
+    background-color: white;
+    border-radius: 50%;
+    padding: 1px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin: 0px 0px 0px auto;
+}
+
+.modal_tbl tr{
+    border-style: none;
+}
+
+.modal_tbl th{
+    background-color: white;
+    color: rgba(137, 119, 103, 1);
+    font-weight: bold;
+    padding: 10px 10px;
+}
+
+.modal_tbl td {
+    background-color: white;
+    color: rgba(137, 119, 103, 1);
+    padding: 10px 10px;
+}
+
+.modal_tbl input {
+    background-color: white;
+    color: rgba(137, 119, 103, 1);
+    font-size: 15px;
+    border: none;
+}
+
+#div_deletebtn {
+    text-align: center;
+    padding: 20px;
+}
+
+#deletebtn {
+    font-size: 15px;
+    color: white;
+    background: red;
+    border-style: none;
+    padding: 5px 10px;
+}

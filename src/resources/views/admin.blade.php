@@ -83,7 +83,7 @@
                 </td>
                 <td>{{ $content['email'] }}</td>
                 <td>{{ $content['category']['content'] }}</td>
-                <td><button>詳細</button></td>
+                <td><livewire:modal :content='$content'></td>
             </tr>
             @endforeach
         </table>

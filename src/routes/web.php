@@ -42,6 +42,8 @@ Route::post('/correct', [ContactController::class, 'correct']);
 
 Route::post('/reg_contact_form', [ContactController::class, 'reg_db']);
 
+Route::delete('/delete', [ContactController::class, 'destroy']);
+
 Route::middleware('auth')->group(function () {
     Route::get('/admin', [ContactController::class, 'admin_disp']);
 });
