@@ -52,7 +52,13 @@
         </form>
     </div>
     <div class="div_pagenation">
-        <button class="export_btn" type="submit" >エクスポート</button>
+        <form class="form_export" action="/export" method="post">
+        @csrf
+            @foreach ($export_contents as $content)
+                <input type="hidden" name="export_data[]" value="{{ $content['id'] }}">
+            @endforeach
+            <button class="export_btn" type="submit" >エクスポート</button>
+        </form>
 
         {{ $contents->links('vendor.pagination.tailwind') }}
 

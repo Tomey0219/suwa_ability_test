@@ -245,3 +245,7 @@ svg.w-5.h-5 {
     border-style: none;
     padding: 5px 10px;
 }
+
+.form_export{
+    width: 100%;
+}
